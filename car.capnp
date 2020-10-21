@@ -307,6 +307,7 @@ struct CarControl {
     override @1: Bool;
     speedOverride @2: Float32;
     accelOverride @3: Float32;
+    setSpeedUpdate @4: Float32;
   }
 
   struct HUDControl {
